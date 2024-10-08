@@ -5,7 +5,7 @@ import { AppRoutes, routes } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { InicioComponent } from './inicio/inicio.component';
-
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppComponent } from './app.component';
 import {MaterialModule} from  './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,11 +15,7 @@ import { provideRouter } from '@angular/router';
 
 @NgModule({
     declarations: [
-      AppComponent,
-      MenuComponent,
-      InicioComponent,
-      MotosComponent,
-      
+
     ],
     imports: [
 
@@ -29,9 +25,11 @@ import { provideRouter } from '@angular/router';
       AppRoutes,
       LayoutModule,
       MaterialModule,
-      BrowserAnimationsModule
+      BrowserAnimationsModule,
+      MatSlideToggleModule,
+      MotosComponent
     ],
     providers: [provideRouter(routes)],
-    bootstrap: [AppComponent]
+    bootstrap: []
   })
   export class AppModule { }

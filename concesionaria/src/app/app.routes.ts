@@ -5,8 +5,11 @@ import { InicioComponent } from "./inicio/inicio.component";
 
 export const routes: Routes = [
    
+  {
+    path:"",component:InicioComponent
+  },
     {
-      path:"",component:InicioComponent
+      path:"inicio",component:InicioComponent
     },
     {
       path:"motos",component:MotosComponent
