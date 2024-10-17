@@ -1,13 +1,13 @@
-#carouselExampleFade{
-height: 50%;
-width: 50%;
-display: flex;
+#carousel{
+    height: 50%;
+    width: 50%;
 }
-.uno{
+.caja{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
 }
-body{
+span{
     background-color: black;
 }

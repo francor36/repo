@@ -11,6 +11,8 @@ import {MaterialModule} from  './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MotosComponent } from './motos/motos.component';
 import { provideRouter } from '@angular/router';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { PieComponent } from './pie/pie.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { provideRouter } from '@angular/router';
       MaterialModule,
       BrowserAnimationsModule,
       MatSlideToggleModule,
-      MotosComponent
+      MotosComponent,
+      NosotrosComponent,
+      PieComponent
     ],
     providers: [provideRouter(routes)],
     bootstrap: []
