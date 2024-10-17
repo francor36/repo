@@ -22,30 +22,44 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" routerLink="/inicio">
+            <div class="imagen"></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/inicio">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/inicio">Catalogo</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/inicio">Accesorio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/inicio">Contacto</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/inicio">Donde encontarnos</a>
+                </li>
+            </ul>
+            <div class="contenedor">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                    <mat-icon aria-hidden="false" fontIcon="login"></mat-icon>
+                    Login</button>
+
+            </div>
+
+        </div>
+
+    </nav>
 
 </body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" routerLink="/inicio">
-        <div class="imagen"></div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" routerLink="/inicio">Inicio</a>
-            </li>
-        </ul>
-
-        <div class="contenedor">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="login"></mat-icon>
-                Login</button>
-        </div>
-    </div>
-</nav>
 
 </html>
 <router-outlet></router-outlet>
