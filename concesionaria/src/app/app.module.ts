@@ -12,6 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MotosComponent } from './motos/motos.component';
 import { provideRouter } from '@angular/router';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { PieComponent } from './pie/pie.component';
+
 
 @NgModule({
     declarations: [
@@ -28,7 +30,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
       BrowserAnimationsModule,
       MatSlideToggleModule,
       MotosComponent,
-      NosotrosComponent
+      NosotrosComponent,
+      PieComponent
     ],
     providers: [provideRouter(routes)],
     bootstrap: []
