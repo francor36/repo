@@ -4,14 +4,12 @@
     box-sizing: border-box;
     list-style: none;
 }
-
-.contenedor button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+body{
+    width: 100%;
 }
-.imagen{
+
+
+.imagen {
     background-image: url(../Imagenes/lell.png);
     width: 60px;
     height: 60px;
@@ -21,6 +19,17 @@
     border: 2px solid gray;
     border-radius: 50%;
 }
-nav{
+
+nav {
     background-color: #e8eaf6;
+}
+
+.dropdown{
+    width: 190px;
+}
+.dropdown button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
