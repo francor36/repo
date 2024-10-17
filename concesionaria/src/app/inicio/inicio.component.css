@@ -1,0 +1,12 @@
+#carousel{
+    height: 50%;
+    width: 50%;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    background-color: black;
+}
