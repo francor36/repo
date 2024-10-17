@@ -11,7 +11,7 @@ import {MaterialModule} from  './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MotosComponent } from './motos/motos.component';
 import { provideRouter } from '@angular/router';
-import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +28,7 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
       BrowserAnimationsModule,
       MatSlideToggleModule,
       MotosComponent,
-      SobreNosotrosComponent
+      NosotrosComponent
     ],
     providers: [provideRouter(routes)],
     bootstrap: []
